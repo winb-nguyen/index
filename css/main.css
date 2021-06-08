@@ -1,0 +1,344 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container
+{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.header
+{
+    width: 100%;
+    height: 700px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+background: rgb(238,238,238); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.banner
+{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+.logo
+{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+.menu
+{
+    width: 70%;
+    height: 100px;
+    float: right;
+    
+}
+
+.menu ul
+{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: thunnb;
+    
+}
+.menu ul li
+{
+    float:left;
+    padding:30px;
+    
+    
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color:cadetblue;
+ 
+}
+.menu ul li:hover
+{
+    background-color: whitesmoke;
+    border-radius: 20px;
+}   
+.menu ul li:hover a
+{
+    color: mediumvioletred;
+}
+.slider
+{
+    width: 100%;
+    height: 600px;
+    background: url("../images/slide_02.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 100px 50px 0px 800px;
+    font-family: thunnb;
+}
+.text
+{
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+}
+.texta
+{
+    width: 50%;
+    height: 250px;
+    background-color: slategrey;
+    float:left;
+    padding: 30px;
+    box-sizing: border-box;
+    color: white;
+    font-family:thunnb;
+}
+input
+{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+button
+{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: aliceblue;
+    font-family: thunnb;
+    font-weight: bold;
+    color: darkslateblue;
+    font-size: 15px;
+}
+
+@font-face {
+  font-family: thunnb;
+  src: url("../font/RobotoCondensed-Regular.ttf");
+}
+@font-face {
+  font-family: aurora;
+  src: url("../font/UTM Aurora.ttf");
+}
+
+.underslide
+{
+   width: 100%;
+    height: 500px;
+    background-color: indianred;
+}
+.underslide_inside
+{
+   width: 50%;
+    height: 500px;
+    background-color: white;
+    float:left;
+    font-family: thunnb;
+    padding: 10px 100px 10px 10px;
+    box-sizing:border-box;
+}
+.picture
+{
+	width: 100%;
+	height: 800px;
+}
+.pics
+{
+	width: 50%;
+	height: 400px;
+	float: left;
+}
+.icon
+{
+	width: 40%;
+	height: 320px;
+	background-color:#f5f5f5;
+	float: left;
+	padding: 50px 5% 30px 5%;
+    font-family: thunnb;
+}
+.icons
+{
+	width: 40%;
+	height: 320px;
+	background-color:#f5f5f5;
+	float: right;
+	padding: 60px 5% 20px 5%;
+    font-family: thunnb;
+}
+.image
+{
+	width: 50%;
+	height: 400px;
+	float: right;
+	background-color:#f5f5f5;
+}
+.image_a
+{
+	width: 50%;
+	height: 400px;
+	float: left;
+	background-color:#f5f5f5;
+}
+.image img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.image_a img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+.model
+{
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+}
+.modeltext
+{
+    width: 100%;
+    height: 120px;
+    padding-top: 30px;
+    font-family: thunnb;
+}
+
+.model_sub
+{
+    width: 25%;
+    height: 500px;
+    background-color: white;
+    float: left;
+    margin: 0px 1% 0px 1%;
+    font-family: thunnb;
+}
+.number
+{
+    width: 100%;
+    height: 200px;
+    background-color: lightskyblue;
+    justify-content: center;
+    display: flex;
+}
+.numberso
+{
+    width: 10%;
+    height: 100px;
+    background-color: blue;
+    float: right;
+    margin: 50px 20px 0 20px;
+}
+.lichtrinhtext
+{
+    width: 100%;
+    height: 120px;
+    padding-top: 30px;
+    font-family: thunnb;
+}
+.lichtrinh
+
+{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+}
+.lichtrinh_sub
+
+{
+    width: 25%;
+    height: 450px;
+    float: left;
+    margin: 0px 1% 0px 1%;
+    font-family:thunnb;  
+}
+
+.slogan
+{
+   width: 100%;
+    height: 300px;
+    background-color: ghostwhite;
+    justify-content: center;
+    display:flex;
+}
+.slogan_sub
+{
+   width: 40%;
+    height: 300px;
+    float:left;
+    font-family: thunnb;
+}
+
+.cot
+{
+     width: 80%;
+    height: 160px;
+    justify-content:center;
+    display: flex;
+    padding: 10%;
+}
+.cotsub
+{
+    width: 18%;
+    height: 160px;
+    float:left;
+    margin: 0px 1% 0px 1%;
+    font-family: thunnb;
+}
+.footer
+{
+    width: 100%;
+    height: 250px;
+    background-color:black;
+    opacity: 80%;
+
+}
+.menufooter
+{
+    width: 60%;
+    height: 100px;
+    padding:20px;
+    box-sizing: content-box;
+
+        
+}
+.menufooter ul
+{
+    float:left;
+    font-family: aurora;
+}
+.menufooter ul li
+{
+    list-style:none;
+    text-transform: uppercase;
+    padding: 8px;
+}
+.menufooter ul li a
+{
+color:white;
+    text-decoration: none;
+}
+.menufooter ul li:hover a
+{
+color:deeppink;
+
+}
+
+.copyright
+{
+    width: 100%;
+    height: auto;
+    color:white;
+    margin-top: -30px;
+}
